@@ -5,8 +5,12 @@ This tic tac toe game is a little different. It is based off of basketball tic t
 
 ##tictactoe.go
 This file does not have logic in the game of tic-tac-toe. For example, when the player wants to place their piece on the board, they place it in a random location.
-### Usage
+##tictactoe_smart.go
+This game has additional logic so players are able to win when they have the opportunity to and to block a win if it is possible.
+#### Usage
 `GoTicTacToe.exe [player1accuracy player2accuracy]`
+
+`Smart.exe [player1accuracy player2accuracy]`
 
 To compile: go to the directory and type `go install`
 
